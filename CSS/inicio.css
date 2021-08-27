@@ -1,10 +1,78 @@
 @charset "utf-8";
 
 /*Título do site*/
-.titles {
+/*.square {
+   /text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 500px;
+    margin-right: 500px
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}*/
+body {
+    margin: 0px;
+}
+
+/*Container*/
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #FBDEA2;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
+/*Box*/
+.box {
+    width: 400px;
+    height: 520px;
+    background: #3F5C9A;
+    border-radius: 10px;
+    box-shadow: 8px 9px 0px rgba(0, 0, 0, 0.45);
+}
+/*Elvis*/
+.container .box .perfil-photo {
+    position: relative;
+    width: 126.26px;
+    height: 126.26px;
+    left: -64.26px;
+    top: 32px;
+    background: url(Img/Elvis.jpg);
+    border-radius: 84.5px;
+}
+/*Elipse-photo*/
+.container .box .elipse-border {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    left:67.5px;
+    top: 30px;
+    background: url(Img/Elipse-Foto.png);
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
+}
+
+.container .box .redesocial {
+    margin-bottom: 600px;
+}
+#title-name {
+    font-family: 'roboto' , sans-serif;
+    margin-bottom: 30px;
+}
+.page {
+    font-family: monospace;
+    font-size: 12pt;
+   
+   }
 .img-linkedin {
+    
     width: 70px;
 }
 .img-github {
