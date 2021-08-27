@@ -40,11 +40,11 @@ body {
 }
 /*Elvis*/
 .container .box .perfil-photo {
-    position: absolute;
+    position: relative;
     width: 126.26px;
     height: 126.26px;
-    left: 617.3px;
-    top: 92px;
+    right:61.5px;
+    top: 35px;
     background: url(Img/Elvis.jpg);
     border-radius: 84.5px;
 }
@@ -53,17 +53,17 @@ body {
     position: relative;
     width: 130px;
     height: 130px;
-    left:-0.2px;
+    left:69.8px;
     top: 33px;
     box-sizing: border-box;
 }
 /*ETGC*/
 .title-name h1 {
-    position: absolute;
-    width: 187px;
-    height: 74px;
-    left: 590px;
-    top: 187px;
+    position: relative;
+    width: 408px;
+    height: 42px;
+    left: 0px;
+    top: 3px;
 
     text-align: center;
     font-family: monospace;
@@ -78,11 +78,11 @@ body {
 }
 /*Elvis Castro*/
 .title-name h4 {
-    position: absolute;
-    width: 144px;
+    position: relative;
+    width: 400px;
     height: 28px;
-    left: 608px;
-    top: 267px;
+    left:0px;
+    top: 0px;
 
 
     text-align: center;
@@ -98,11 +98,11 @@ body {
 }
 /* Site em construção! */
 .title-name h2 {
-    position: absolute;
-    width: 397px;
+    position: relative;
+    width: 408px;
     height: 42px;
-    left: 483.5px;
-    top: 333px;
+    left: 0.5px;
+    top: 3px;
 
     font-family: monospace;
     font-style: normal;
@@ -116,32 +116,58 @@ body {
 }
 /*Acesse minhas páginas*/
 p {
-    position: absolute;
-    width: 192px;
+    position: relative;
+    width: 400px;
     height: 21px;
-    left: 584px;
-    top: 415px;
+    left: 0px;
+    top: 12px;
 
     font-family: monospace;
     font-style: normal;
     font-size: 12pt;
     line-height: 21px;
-    /* identical to box height */
-
 
     color: #FFFFFA;
-
     text-shadow: 1px 1px 0px #3D3D3D;
 }
 /*icon Linkedin*/
 .img-linkedin {
+    position: relative;
     width: 70px;
+    height: 70px;
+    left: 96px;
+    top: 26px;
+
+    background: url(linkedin.png);
+    border: 2px solid #FBDEA2;
+    box-sizing: border-box;
+    filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.25));
+    border-radius: 26px;
 }
 /*icon Github*/
 .img-github {
-    width: 70px;
+    position: relative;
+width: 70px;
+height: 70px;
+left: 60px;
+top: 27px;
+
+background: url(Githubor.png);
+border: 2px solid #FBDEA2;
+box-sizing: border-box;
+filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.25));
+border-radius: 23.5px;
 }
 /*icon Twitter*/
 .img-twitter {
+    position: relative;
     width: 70px;
-}
+    height: 70px;
+    left: 80px;
+    top: 26px;
+    
+    background: url(twitter.png);
+    border: 2px solid #FBDEA2;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25);
+     }
