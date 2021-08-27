@@ -46,6 +46,7 @@ body {
     right:66.5px;
     top: 30px;
     border-radius: 84.5px;
+    background: url(Elvis.jpg);
 }
 /*Elipse-photo*/
 .container .box .perfil .elipse-border {
@@ -55,6 +56,7 @@ body {
     left:64.8px;
     top: 28px;
     box-sizing: border-box;
+    background: url(Elipse.png);
 }
 /*ETGC*/
 .title-name h1 {
