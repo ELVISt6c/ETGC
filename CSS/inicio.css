@@ -45,11 +45,10 @@ body {
     height: 126.26px;
     right:66.5px;
     top: 30px;
-    background: url(Img/Elvis.jpg);
     border-radius: 84.5px;
 }
 /*Elipse-photo*/
-.container .box .elipse-border {
+.container .box .perfil .elipse-border {
     position: relative;
     width: 130px;
     height: 130px;
