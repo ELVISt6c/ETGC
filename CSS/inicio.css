@@ -28,6 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 /*Box*/
 .box {
@@ -39,11 +40,11 @@ body {
 }
 /*Elvis*/
 .container .box .perfil-photo {
-    position: relative;
+    position: absolute;
     width: 126.26px;
     height: 126.26px;
-    left: -64.26px;
-    top: 32px;
+    left: 617.3px;
+    top: 92px;
     background: url(Img/Elvis.jpg);
     border-radius: 84.5px;
 }
@@ -52,32 +53,95 @@ body {
     position: relative;
     width: 130px;
     height: 130px;
-    left:67.5px;
-    top: 30px;
-    background: url(Img/Elipse-Foto.png);
+    left:-0.2px;
+    top: 33px;
     box-sizing: border-box;
-    backdrop-filter: blur(4px);
 }
+/*ETGC*/
+.title-name h1 {
+    position: absolute;
+    width: 187px;
+    height: 74px;
+    left: 590px;
+    top: 187px;
 
-.container .box .redesocial {
-    margin-bottom: 600px;
-}
-#title-name {
-    font-family: 'roboto' , sans-serif;
-    margin-bottom: 30px;
-}
-.page {
+    text-align: center;
     font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 63px;
+    line-height: 74px;
+  
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    text-shadow: 3px 2px 0px #3D3D3D;
+}
+/*Elvis Castro*/
+.title-name h4 {
+    position: absolute;
+    width: 144px;
+    height: 28px;
+    left: 608px;
+    top: 267px;
+
+
+    text-align: center;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    letter-spacing: 1px;
+    color: #FFFFFA;
+    text-shadow: 1px 1px 0px #3D3D3D;
+}
+/* Site em construção! */
+.title-name h2 {
+    position: absolute;
+    width: 397px;
+    height: 42px;
+    left: 483.5px;
+    top: 333px;
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFA;
+    text-shadow: 1px 1px 0px #3D3D3D;
+}
+/*Acesse minhas páginas*/
+p {
+    position: absolute;
+    width: 192px;
+    height: 21px;
+    left: 584px;
+    top: 415px;
+
+    font-family: monospace;
+    font-style: normal;
     font-size: 12pt;
-   
-   }
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFA;
+
+    text-shadow: 1px 1px 0px #3D3D3D;
+}
+/*icon Linkedin*/
 .img-linkedin {
-    
     width: 70px;
 }
+/*icon Github*/
 .img-github {
     width: 70px;
 }
+/*icon Twitter*/
 .img-twitter {
     width: 70px;
 }
