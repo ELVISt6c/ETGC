@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: #FBDEA2;
+}
+#box {
+    width: 900px;
+    height: 550px;
+
+    background: #3F5C9A;
+    border: 3px solid #3D3D3D;
+    box-sizing: border-box;
+    box-shadow: 14px 16px 0px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+}
+body {
+    margin: 0;
+}
