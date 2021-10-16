@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 
 #container {
     width: 100vw;
@@ -7,6 +9,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
+    
 
     background: #FBDEA2;
 }
@@ -25,12 +29,71 @@ body {
 }
 
 /*navegador*/
-.icone-muda {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-
-    background: #FFFFFF;
+.nav-bar {
+    position: relative;
+    height: 190px;
+    width: 847px;
+    left: 24px;
+        
+    background: url(../IMG/index/navbar.png);
 }
 
+/*tipografia*/
+.etgc {
+    position: relative;
+    top: 67.5px;
+    left:-26px;
 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 0.1em;
+    
+    color: #2C2C2C;
+}
+.estudos {
+    position: relative;
+
+    top: 15px;
+    left: 136px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    line-height: 53px;
+    letter-spacing: 0.1em;
+
+    color: #2C2C2C;
+}
+.materiais {
+    position: relative;
+    top: -37.5px;
+    left: 490px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    line-height: 53px;
+    letter-spacing: 0.1em;
+
+    color: #2C2C2C;
+}
+.portfolio {
+    position: relative;
+    top: -90.5px;
+    left: 667px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    line-height: 53px;
+    letter-spacing: 0.1em;
+
+    color: #2C2C2C;
+}
+.tag-html {
+    position: relative;
+    top: -143px;
+    left: 309px;
+
+    font-family: 'Rubik', sans-serif;    font-weight: bold;
+    font-size: 96px;
+    line-height: 53px;
+    
+    color: #E64C18
+}
