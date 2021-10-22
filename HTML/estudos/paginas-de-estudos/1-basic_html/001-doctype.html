@@ -11,23 +11,38 @@
 
     <div id="container">
         <div id="box">
-            <nav class="nav-bar">
-                <ul type="none">
-                    <li class="etgc">ETGC</li>
-                    <li class="estudos">Início</li>
-                    <li class="materiais">Materiais</li>
-                    <li class="portfolio">Portfólio</li>
-                    <li class="tag-html">&lt;!DOCTYPE&gt;</li>
-                </ul>
-            </nav>
-
+            <div class="bar">
+                <nav class="nav-bar">
+                    <ul type="none">
+                        <li class="etgc">ETGC</li>
+                        <li class="estudos">Início</li>
+                        <li class="materiais">Materiais</li>
+                        <li class="portfolio">Portfólio</li>
+                        <li class="tag-html">&lt;!DOCTYPE&gt;</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="principal">
                 <h1>&lt;!DOCTYPE&gt;</h1>
                     <h2>Definição</h2>
                         <p><strong>Todo documento "html" deve ser iniciado por uma declaração &lt;!DOCTYPE&gt;</strong></p>
                         <p>O &lt;!DOCTYPE&gt; representa uma declaração ao navegador ao qual está sendo inserido. Todo este que o recebe decodificará o que será atribuído no conteúdo da página.</p><!--A declaração não é uma tag, mas uma "informação" com qual o navegador irá interpretar e de qual "documento" esperar-->
-                    <h3>Maneiras de inserir a declaração:</h3>
+                    <h3>Maneiras de inserir a <em>declaração</em>:</h3>
                         <p><code>&lt;!DOCTYPE&gt; | &lt;!doctype&gt; | &lt;!DocType&gt; | &lt;!Doctype&gt;</code></p>
-                            <q cite="">A declaração NÃO diferencia Maiúsculas de Minúsculas</q>
+                <q cite="">A declaração NÃO diferencia Maiúsculas de Minúsculas</q>
+            </div>
+            <div id="paginacao">
+                <div class="container">
+                    <div class="pagina-navi" role="navigation">
+                        <span class="pages">Página 1 de 10</span>
+                       <span aria-current="page" class="pagina-atual">1</span>
+                        <a class="proxima-pagina" title="Página 2" href="002-html.html">2</a>
+                        <a class="proxima-pagina" title="Página 3" href="003-head.html">3</a>
+                        <a class="ultima-pagina" aria-label="Página 10" href="010-comment.html">&raquo;</a>
+                    </div>
+                </div>
+            </div>
+
             <footer>&copy; 2021 - Elvis Castro</footer>
         </div>
     </div>
