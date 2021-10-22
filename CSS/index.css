@@ -10,8 +10,6 @@
     justify-content: center;
     align-items: center;
     
-    
-
     background: #FBDEA2;
 }
 #box {
@@ -45,6 +43,7 @@ body {
     left:-26px;
 
     font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
     font-size: 40px;
     line-height: 53px;
     letter-spacing: 0.1em;
@@ -53,10 +52,11 @@ body {
 }
 .estudos {
     position: relative;
-
     top: 15px;
     left: 136px;
+
     font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
     font-size: 20px;
     line-height: 53px;
     letter-spacing: 0.1em;
@@ -67,7 +67,9 @@ body {
     position: relative;
     top: -37.5px;
     left: 490px;
+
     font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
     font-size: 20px;
     line-height: 53px;
     letter-spacing: 0.1em;
@@ -80,6 +82,7 @@ body {
     left: 667px;
 
     font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
     font-size: 20px;
     line-height: 53px;
     letter-spacing: 0.1em;
@@ -89,11 +92,24 @@ body {
 .tag-html {
     position: relative;
     top: -143px;
-    left: 309px;
+    left: 312px;
 
-    font-family: 'Rubik', sans-serif;    font-weight: bold;
+    font-family: 'Rubik', sans-serif; font-weight: bold;
     font-size: 96px;
     line-height: 53px;
-    
+           
     color: #E64C18
+}
+
+/*Texto informativo*/
+p {
+    position: relative;
+    margin: 50px;
+}
+
+/*Rodape*/
+footer {
+    position: relative;
+    text-align: center;
+    margin: 200px;
 }
