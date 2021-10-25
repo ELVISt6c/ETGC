@@ -40,14 +40,14 @@ ROLE
 PAGINAS
     Classe definida para a contagem do número de páginas totais no documento HTML.
 
-PRIMEIRA-PAGINA 
+PRIMEIRA???
     Classe definida para dar volta única para à primeira página.
 
 ARIA-LABEL
     Atributo que define dentro do elemento a funcionalidade de "atual" em forma de leitura somente e com peso semântico.
 
 PULAR-PAGINA    
-    Classe definida para tanto retroceder páginas quanto pular páginas.
+    Classe definida para saltar duas páginas.
 
 PROXIMA-PAGINA  
     Classe definida para passar uma pagina.
@@ -55,8 +55,15 @@ PROXIMA-PAGINA
 PAGINA-ANTERIOR
     Classe definida para voltar uma página.
 
-ULTIMA-PAGINA
+VOLTAR-PAGINA
+    Classe definiada para voltar duas páginas.
+
+ULTIMA???
     Classe definida para dar entrada única à última página.
 
 HN
-    Classe dedinida para dar ênfase ao conjundo de tags "h1" ao "h6".
+    Classe definida para dar ênfase ao conjundo de tags "h1" ao "h6".
+
+DEMONSTRACAO
+    
+    Classe definida para dar amostra relacionada à uma tag!.
