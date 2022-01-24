@@ -67,3 +67,19 @@ HN
 DEMONSTRACAO
     
     Classe definida para dar amostra relacionada à uma tag!.
+
+GLOBAIS
+    Classe definida para dar ênfase aos links de navegação vinculados aos atributos globais.
+
+GLOBAIS LINKS
+    Classe definida para dar ênfase a blocos especificos com links de navegação vinculados aos atributos globais.
+
+ATGLOBAIS
+    Define a classe do título Atributos Globais
+
+ATATRIBUTOS
+    Define a classe do título Atrubutos.
+
+ETGC-TAG
+    Define a classe das tags nas páginas html.
+
