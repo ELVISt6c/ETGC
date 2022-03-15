@@ -45,6 +45,9 @@ PRIMEIRA???
 
 ARIA-LABEL
     Atributo que define dentro do elemento a funcionalidade de "atual" em forma de leitura somente e com peso semântico.
+    
+ARIA-CURRENT 
+    Atributo que define a página atual em que se encontra.
 
 PULAR-PAGINA    
     Classe definida para saltar duas páginas.
