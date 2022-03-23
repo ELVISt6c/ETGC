@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+
+/*Fonte Monoespace*/
+h1,h2,h3,h4 {
+    font-family: monospace;
+}
+
+/*Fonte Padrão*/
+p, q {
+    font-family: Verdana;
+    font-size: 11pt;
+}
+
+/*Páginas*/
+.paginas {
+    position: relative;
+    bottom: 15px;
+}
+
+/*Decoração de texto*/
+a {
+    text-decoration: none;
+}
+
+/*Container*/
+#paginacao {
+    font-family: Verdana;
+    font-size: 11pt;
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+
+/*Span1*/
+.span1{
+    font-size: 20px;
+    position: relative;
+}
+
+/*Span2*/.span2{
+    font-size: 20px;
+    position: relative;
+}
+
+/*Página Anterior*/
+.voltar-pagina{
+    font-size: 20px;
+    position: relative;
+}
+
+/*Página Atual*/
+.pagina-atual {
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+}
+
+/*Próxima Página*/
+.proxima-pagina {
+    font-size: 20px;
+    position: relative;
+}
+
+/*Pular Página*/
+.pular-pagina{
+    font-size: 20px;
+    position: relative;
+}
+
+/*Última Página*/
+.pagina10 {
+    font-size: 20px;
+    position: relative;
+}
+/*Rodapé*/
+footer {
+    font-family: Verdana;
+    font-size: 9pt;
+    font-weight:700;
+    text-align: center;
+    position: relative;
+    top: 195px;
+}
