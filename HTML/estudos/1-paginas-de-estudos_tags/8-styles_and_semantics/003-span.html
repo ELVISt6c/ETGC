@@ -19,45 +19,32 @@
     </nav>
     <main class="principal">
         <header>
-            <h1>&lt;STYLE&gt;</h1>
+            <h1>&lt;SPAN&gt;</h1>
             <h2>Definição</h2>
-                <p>A tag <code>&lt;style&gt; &lt;/style&gt;</code> define o estilo <abbr title="Cascading Style Sheets">(CSS)</abbr> em um documento <abbr title="HyperText Markup Language">(HTML)</abbr>.</p>
-                <p>Dentro do elemento deve ser especificado os termos <abbr title="HyperText Markup Language">HTML</abbr> que serão renderizados em um navegador.</p>
-                <p>A tag abrange folhas de estilo para uma página web.</p>
-                <p><strong>Importante:</strong> Há dois tipos de tag <code>&lt;style&gt; &lt;/style&gt;</code> em um documento <abbr title="HyperText Markup Language">HTML</abbr>.</p>
-                <p><strong>Importante:</strong> O segundo tipo de tag é composto por um atributo que modifica a tela de impressão caso o usuário (a) queira imprimir a página, a tag <code>&lt;style <a class="att-link" href="../../2-paginas-de-estudos_atributos/3-Elementos/038-media.html">media="print"&gt;</a> &lt;/style&gt;</code> modificará à cor de fundo atual por outra selecionada no momento da impressão.</p>
-                    <blockquote cite="https://www.w3schools.com/tags/tag_style.asp">
-                        <b>Nota:</b> Quando um navegador ler uma folha de estilo, ele irá formatar o documento <abbr title="HyperText Markup Language">HTML</abbr> de acordo com as informações da folha de estilo. Se algumas propriedades foram definidas para o mesmo seletor <i>(elemento)</i> em diferentes folhas de estilo, será usado o valor da última folha de estilo lida.<br>
-                        <b>Dica:</b> Para vincular a uma folha de estilo externa, use a tag <code>&lt;link&gt;</code>.
-                    </blockquote>
-            <h3>Maneiras de inserir a tag <code>&lt;style&gt; &lt;/style&gt;</code>:</h3>
+                <p><q cite="https://devdocs.io/html/element/span">O elemento <code>&lt;span&gt;</code> é um contêiner inline genérico para conteúdo de frase, que não representa nada importante. Ele pode ser usado para agrupar elementos para fins de estilo</q></p>
+                <p>A tag <code>&lt;span&gt; &lt;/span&gt;</code> define um contêiner em um documento sendo usado para conteúdo de texto ou partes de um documento  <abbr title="HyperText Markup Language">(HTML)</abbr>.</p>
+                <p>A tag <code>&lt;span&gt; &lt;/span&gt;</code> pode ser estilizada facilmente com <abbr title="Cascading Style Sheets">(CSS)</abbr>  ou manipulada com <abbr title="javaScript">(JS)</abbr> através dos atributos <a class="att-link" href="../../2-paginas-de-estudos_atributos/1-globais/002-class.html"><code>class=""</code></a> ou <a class="att-link" href="../../2-paginas-de-estudos_atributos/1-globais/008-id.html"><code>id=""</code></a>.</p>
+                <p>A tag <code>&lt;span&gt; &lt;/span&gt;</code> é parecida com a tag <code>&lt;div&gt; &lt;/div&gt;</code> sendo que esta é um elemento embutido enquanto <code>&lt;div&gt; &lt;/div&gt;</code> é um elemento de nível bloco.</p>
+            <h3>Maneiras de inserir a tag <code>&lt;span&gt; &lt;/span&gt;</code>:</h3>
                 <pre>
                     &lt;!DOCTYPE html&gt;
                     &lt;html lang="pt-br"&gt;
                         &lt;head&gt;
                             &lt;title&gt;...&lt;/title&gt;
-                                <b>&lt;style&gt;</b>
-                                    <i>body</i> {
-                                        backgrownd-color: red;
-                                    }
-                                <b>&lt;/style&gt;</b>
-
-                                        <strong>IMPORTANTE:</strong> <i>abre-se uma nova tag <code>&lt;style&gt; &lt;/style&gt;</code> para inserção de configuração da cor de impressão da página.</i>
-
-                                <b>&lt;style media="print"&gt;</b>
-                                    <i>body</i> {
-                                        backgrownd-color: yellow;
-                                    }
-                                <b>&lt;/style&gt;</b>
+                            &lt;style&gt;
+                                <i>.cor</i> {
+                                    color: blue;
+                                }
+                            &lt;style&gt;
                         &lt;/head&gt;
-
                         &lt;body&gt;
-
+                            &lt;p&gt;Uma característica da espan é poder usa-lá para mudar a cor de uma palavra sem 
+                            comportamento semântico, por exemplo: <b>&lt;span class="cor"&gt;</b>AZUL<b>&lt;/span&gt;</b>&lt;p&gt;
                         &lt;/body&gt;
                     &lt;/html&gt;
                 </pre> 
             <h4><a class="atglobais" name="atributos-globais" href="../../04.1-atributos-globais.html">Atributos Globais</a></h4>
-                <p>A tag <code>&lt;style&gt; &lt;/style&gt;</code> suporta todos os Atributos Globais HTML.</p> 
+                <p>A tag <code>&lt;span&gt; &lt;/span&gt;</code> suporta todos os Atributos Globais HTML.</p> 
 
                     <div class="globais-links" role="link">
                         <a class="globais" name="accesskey" href="../../2-paginas-de-estudos_atributos/1-globais/001-acesskey.html">accesskey</a>, 
@@ -75,10 +62,6 @@
                         <a class="globais" name="title" href="../../2-paginas-de-estudos_atributos/1-globais/013-title.html">title</a>,
                         <a class="globais" name="translate" href="../../2-paginas-de-estudos_atributos/1-globais/014-traslate.html">translate</a>.
                     </div>  
-            <h4><a class="attinputs" name="atributos-inputs" href="../../04.3-atributos-de-elemento.html">Atributos</a></h4>
-                <div class="fixos-links" role="link">
-                    <a class="fixos" name="media" href="../../2-paginas-de-estudos_atributos/3-Elementos/038-media.html">media</a>.
-                </div>            
         </header>
     </main>
     <nav class="page-bar" role="navigation">
