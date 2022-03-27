@@ -11,8 +11,8 @@
 <body>
     <nav class="nav-bar">
         <ul type="none">
-            <li class="inicio"><a href="#">Início</a></li>
-            <li class="estudos"><a href="#">Estudos</a></li>
+            <li class="inicio"><a href="../../../../index.html">Início</a></li>
+            <li class="estudos"><a href="../../estudos.html">Estudos</a></li>
             <li class="materiais"><a href="#">Materiais</a></li>
             <li class="portfolio"><a href="#">Portfólio</a></li>
         </ul>
@@ -22,10 +22,14 @@
             <h1>&lt;STYLE&gt;</h1>
             <h2>Definição</h2>
                 <p>A tag <code>&lt;style&gt; &lt;/style&gt;</code> define o estilo <abbr title="Cascading Style Sheets">(CSS)</abbr> em um documento <abbr title="HyperText Markup Language">(HTML)</abbr>.</p>
-                <p>Dentro do elemento deve ser especificado os termos <abbr title="HyperText Markup Language">(HTML)</abbr> que serão renderizados em um navegador.</p>
+                <p>Dentro do elemento deve ser especificado os termos <abbr title="HyperText Markup Language">HTML</abbr> que serão renderizados em um navegador.</p>
                 <p>A tag abrange folhas de estilo para uma página web.</p>
-                <p><strong>Importante:</strong> Há dois tipos de tag <code>&lt;style&gt; &lt;/style&gt;</code> em um documento HTML.</p>
-                <p><strong>Importante:</strong> O segundo tipo de tag é composto por um atributo que modifica a tela de impressão caso o usuário (a) queira imprimir a página, <code>&lt;style <a class="att-link" href="../../2-paginas-de-estudos_atributos/3-Elementos/038-media.html">media="print"&gt;</a> &lt;/style&gt;</code> modificando assim a cor de fundo.</p>
+                <p><strong>Importante:</strong> Há dois tipos de tag <code>&lt;style&gt; &lt;/style&gt;</code> em um documento <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+                <p><strong>Importante:</strong> O segundo tipo de tag é composto por um atributo que modifica a tela de impressão caso o usuário (a) queira imprimir a página, a tag <code>&lt;style <a class="att-link" href="../../2-paginas-de-estudos_atributos/3-Elementos/038-media.html">media="print"&gt;</a> &lt;/style&gt;</code> modificará à cor de fundo atual por outra selecionada no momento da impressão.</p>
+                    <blockquote cite="https://www.w3schools.com/tags/tag_style.asp">
+                        <b>Nota:</b> Quando um navegador ler uma folha de estilo, ele irá formatar o documento <abbr title="HyperText Markup Language">HTML</abbr> de acordo com as informações da folha de estilo. Se algumas propriedades foram definidas para o mesmo seletor <i>(elemento)</i> em diferentes folhas de estilo, será usado o valor da última folha de estilo lida.<br>
+                        <b>Dica:</b> Para vincular a uma folha de estilo externa, use a tag <code>&lt;link&gt;</code>.
+                    </blockquote>
             <h3>Maneiras de inserir a tag <code>&lt;style&gt; &lt;/style&gt;</code>:</h3>
                 <pre>
                     &lt;!DOCTYPE html&gt;
@@ -33,15 +37,15 @@
                         &lt;head&gt;
                             &lt;title&gt;...&lt;/title&gt;
                                 <b>&lt;style&gt;</b>
-                                    body {
+                                    <i>body</i> {
                                         backgrownd-color: red;
                                     }
                                 <b>&lt;/style&gt;</b>
 
-                                        <strong>IMPORTANTE:</strong> <i>abre-se uma nova tag &lt;style&gt; para inserção de configuração da cor de impressão da página.</i>
+                                        <strong>IMPORTANTE:</strong> <i>abre-se uma nova tag <code>&lt;style&gt; &lt;/style&gt;</code> para inserção de configuração da cor de impressão da página.</i>
 
                                 <b>&lt;style media="print"&gt;</b>
-                                     body {
+                                    <i>body</i> {
                                         backgrownd-color: yellow;
                                     }
                                 <b>&lt;/style&gt;</b>
@@ -53,7 +57,7 @@
                     &lt;/html&gt;
                 </pre> 
             <h4><a class="atglobais" name="atributos-globais" href="../../04.1-atributos-globais.html">Atributos Globais</a></h4>
-                <p>A tag <code>&lt;body&gt; &lt;/body&gt;</code> suporta todos os Atributos Globais HTML.</p> 
+                <p>A tag <code>&lt;style&gt; &lt;/style&gt;</code> suporta todos os Atributos Globais HTML.</p> 
 
                     <div class="globais-links" role="link">
                         <a class="globais" name="accesskey" href="../../2-paginas-de-estudos_atributos/1-globais/001-acesskey.html">accesskey</a>, 
@@ -70,18 +74,15 @@
                         <a class="globais" name="tabindex" href="../../2-paginas-de-estudos_atributos/1-globais/012-tabindex.html">tabindex</a>,
                         <a class="globais" name="title" href="../../2-paginas-de-estudos_atributos/1-globais/013-title.html">title</a>,
                         <a class="globais" name="translate" href="../../2-paginas-de-estudos_atributos/1-globais/014-traslate.html">translate</a>.
-                    </div>            
+                    </div>  
         </header>
     </main>
     <nav class="page-bar" role="navigation">
-        <span class="paginas">Página 5 de 10</span><br>
-        <a class="pagina1" aria-label="Página 1" href="001-doctype.html">&laquo;</a>
-        <a class="voltar-pagina" title="Página 3" href="003-head.html">&lsaquo;3</a>
-        <a class="pagina-anterior" title="Página 4" href="004-title.html">4</a>
-        <span aria-current="page" class="pagina-atual">5<span>   
-        <a class="proxima-pagina" title="Página 6" href="006-h1toh6.html">6</a>                    
-        <a class="pular-pagina" title="Página 7" href="007-p.html">7&rsaquo;</a>
-        <a class="pagina10" aria-label="Página 10" href="010-comment.html">&raquo;</a>
+        <span class="paginas">Página 1 de 13</span><br>
+        <span aria-current="page" class="pagina-atual">1<span>   
+        <a class="proxima-pagina" title="Página 2" href="002-div.html">2</a>                    
+        <a class="pular-pagina" title="Página 7" href="003-span.html">3&rsaquo;</a>
+        <a class="pagina13" aria-label="Página 13" href="013-data.html">&raquo;</a>
     </nav>
     <footer>&copy; 2021 /2022 - Elvis Castro</footer>
 </body>
