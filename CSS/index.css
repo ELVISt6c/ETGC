@@ -16,7 +16,7 @@
 #box {
     width: 900px;
     height: 550px;
-
+    position: fixed;
     background: #3F5C9A;
     border: 3px solid #3D3D3D;
     box-sizing: border-box;
@@ -108,9 +108,25 @@ p {
     margin: 50px;
 }
 
+.git-hub {
+    position: relative;
+    width: 8%;
+    left: 290px;
+}
+
+.link-edin {
+    position: relative;
+    width: 8%;
+    left: 330px;
+}
+
+.twi-tter {
+    position: relative;
+    width: 8%;
+    left: 370px;
+}
 /*Rodape*/
 footer {
-    position: relative;
     text-align: center;
-    margin: 200px;
+    margin: 30px;
 }
